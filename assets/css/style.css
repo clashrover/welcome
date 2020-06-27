@@ -62,9 +62,13 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: rgb(29, 29, 29);
+  background: #16141c;
+  background-image: url("../img/drops.gif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
-
+/* 
 #preloader:before {
   content: "";
   position: fixed;
@@ -74,8 +78,9 @@ h1, h2, h3, h4, h5, h6 {
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
+  width: 600px;
+  height: 600px; 
+  background: url("../img/drops.gif") center no-repeat;
   -webkit-animation: animate-preloader 1s linear infinite;
   animation: animate-preloader 1s linear infinite;
 }
@@ -96,7 +101,7 @@ h1, h2, h3, h4, h5, h6 {
   100% {
     transform: rotate(360deg);
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
@@ -316,6 +321,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 24px;
   }
 }
+
 
 /*--------------------------------------------------------------
 # Sections General
